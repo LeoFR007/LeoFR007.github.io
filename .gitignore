@@ -1,0 +1,27 @@
+# Segredos e credenciais — nunca versionar
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+secrets.h
+secrets.json
+credentials*
+hosts.yml
+
+# Rascunhos e arquivos pessoais (currículo final vai em assets/curriculo.pdf)
+rascunhos/
+*.rascunho.*
+*-privado.*
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
